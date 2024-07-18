@@ -1,0 +1,36 @@
+{
+  "flex-layout.row#text__one--home": {
+    "title": "Text row one home",
+    "children": [
+      "flex-layout.col#text__one--home",
+      "flex-layout.col#text__two--home"
+    ],
+    "props": {}
+  },
+  "flex-layout.col#text__one--home": {
+    "title": "Text col one home",
+    "children": [
+      "rich-text"
+    ],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "flex-layout.col#text__two--home": {
+    "title": "Text col two home",
+    "children": [
+      "rich-text"
+    ],
+    "props": {
+      "width": "80%"
+    }
+  },
+  "rich-text": { 
+    "props": { 
+      "text": "¡WATCH",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  }
+} 
