@@ -3,17 +3,45 @@
     "title": "Text row one home",
     "children": [
       "flex-layout.col#text__one--home",
-      "flex-layout.col#text__two--home"
+      "flex-layout.col#text__two--home",
+      "flex-layout.col#text__three--home"
     ],
     "props": {}
   },
+  "flex-layout.row#text__two--home": {
+    "title": "Text row two home",
+    "children": [
+      "rich-text#text__second"
+
+    ],
+    "props": {
+      "blockClass": [
+        "col__one--text"
+      ]
+    }
+  },
+  "flex-layout.row#text__three--home": {
+    "title": "Text row three home",
+    "children": [
+
+    ],
+    "props": {
+      "blockClass": [
+        "col__one--text"
+      ]
+    }
+  },
+
   "flex-layout.col#text__one--home": {
     "title": "Text col one home",
     "children": [
-      "rich-text"
+      "image#watch__home"    
     ],
     "props": {
-      "width": "20%"
+      "width": "33%",
+      "blockClass": [
+        "col__one--text"
+      ]
     }
   },
   "flex-layout.col#text__two--home": {
@@ -22,7 +50,22 @@
       "rich-text"
     ],
     "props": {
-      "width": "80%"
+      "width": "34%",
+      "blockClass": [
+        "col__two--text"
+      ]
+    }
+  },
+  "flex-layout.col#text__three--home": {
+    "title": "Text col three home",
+    "children": [
+      "image#watch__home" 
+    ],
+    "props": {
+      "width": "33%",
+      "blockClass": [
+        "col__three--text"
+      ]
     }
   },
   "rich-text": { 
@@ -30,7 +73,39 @@
       "text": "¡WATCH",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "font": "t-heading-1",
+      "blockClass": "rich-text__first--watch"
+    }
+  },
+  "image#watch__home": {
+    "title": "Image watch",
+    "props": {
+      "src": "assets/img/image_4.png"
+    }
+  },
+
+
+
+
+  "rich-text#text__second": { 
+    "props": { 
+      "text": "An amazing product",
+      "font": "t-heading-6"
+    }
+  },
+
+  "flex-layout.col#images--galeria": {
+    "title": "Text col one home",
+    "children": [
+      "image#watch__home"    
+    ],
+    "props": {
+      "width": "33%",
+      "blockClass": [
+        "col__one--text"
+      ]
     }
   }
+
+
 } 
