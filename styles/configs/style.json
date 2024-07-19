@@ -324,9 +324,9 @@
     ],
     "styles": {
       "heading-1": {
-        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-        "fontWeight": "700",
-        "fontSize": "3rem",
+        "fontFamily": "Lexend",
+        "fontWeight": "600",
+        "fontSize": "48px",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
