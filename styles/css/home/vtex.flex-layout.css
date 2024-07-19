@@ -1,0 +1,14 @@
+.flexCol--col__one--text {
+  background-color: #F0F0F2;
+}
+
+.flexCol--col__two--text {
+  background-color: #F0F0F2;
+}
+
+.flexCol--col__three--text {
+  background-color: #F0F0F2;
+  transform: rotate(180deg);
+}
+
+
