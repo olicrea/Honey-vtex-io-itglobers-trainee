@@ -8,7 +8,7 @@
       "images": [
         {
           "loading": "eager",
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+          "src": "assets/img/computador.png",
           "description": "something something"
         },
         {
