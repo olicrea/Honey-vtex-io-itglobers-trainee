@@ -1,3 +1,7 @@
+.flexRow--flexi {
+  width: 100%;
+}
+
 .flexCol--col__one--text {
   background-color: #F0F0F2;
 }
@@ -11,4 +15,6 @@
   transform: rotate(180deg);
 }
 
-
+.col__first--body--text {
+  background-color: #519871;
+}

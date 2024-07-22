@@ -1,22 +1,25 @@
 {
-  "flex-layout.row#text__one--home": {
-    "title": "Text row one home",
+  "flex-layout.row#header__images--home": {
+    "title": "Header images row home",
     "children": [
-      "flex-layout.col#text__one--home",
-      "flex-layout.col#text__two--home",
-      "flex-layout.col#text__three--home"
-    ],
-    "props": {}
-  },
-  "flex-layout.row#text__two--home": {
-    "title": "Text row two home",
-    "children": [
-      "rich-text#text__second"
-
+      "flex-layout.col#image__normal--header",
+      "flex-layout.col#paragraph__first--header",
+      "flex-layout.col#image__rotate--header"
     ],
     "props": {
       "blockClass": [
-        "col__one--text"
+        "flexi"
+      ]
+    }
+  },
+  "flex-layout.row#paragraph__first--body": {
+    "title": "Paragraph row first body",
+    "children": [
+      "rich-text#paragraph__first--body"
+    ],
+    "props": {
+      "blockClass": [
+        "col__first--body--text"
       ]
     }
   },
@@ -32,22 +35,25 @@
     }
   },
 
-  "flex-layout.col#text__one--home": {
-    "title": "Text col one home",
+  "flex-layout.col#image__normal--header": {
+    "title": "Image watch normal",
     "children": [
-      "image#watch__home"    
+      "image#watch__header"
     ],
     "props": {
-      "width": "33%",
+      "width": "34%",
       "blockClass": [
         "col__one--text"
       ]
     }
   },
-  "flex-layout.col#text__two--home": {
-    "title": "Text col two home",
+  "flex-layout.col#paragraph__first--header": {
+    "title": "Text between images",
     "children": [
-      "rich-text"
+      "rich-text#paragraph__first--header",
+      "rich-text#paragraph__second--header",
+      "rich-text#paragraph__third--header",
+      "flex-layout.row#header__button--home"
     ],
     "props": {
       "width": "34%",
@@ -56,55 +62,101 @@
       ]
     }
   },
-  "flex-layout.col#text__three--home": {
-    "title": "Text col three home",
+  "flex-layout.col#image__rotate--header": {
+    "title": "Image watch rotate",
     "children": [
-      "image#watch__home" 
+      "image#watch__header" 
     ],
     "props": {
-      "width": "33%",
+      "width": "34%",
       "blockClass": [
         "col__three--text"
       ]
     }
   },
-  "rich-text": { 
+  "rich-text#paragraph__first--header": { 
     "props": { 
-      "text": "¡WATCH",
+      "text": "iWATCH",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-1",
-      "blockClass": "rich-text__first--watch"
+      "margin": "0",
+      "blockClass": [
+        "main__title"
+      ]
+    }
+    
+  },
+  "rich-text#paragraph__second--header": { 
+    "props": { 
+      "text": "ULTRA 2",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "margin": "0",
+      "blockClass": [
+        "ultra"
+      ]
     }
   },
-  "image#watch__home": {
+  "rich-text#paragraph__third--header": { 
+    "props": { 
+      "text": "An amazing product.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": [
+        "paragraph__third--header"
+      ]
+    }
+  },
+  "image#watch__header": {
     "title": "Image watch",
     "props": {
-      "src": "assets/img/image_4.png"
+      "src": "assets/img/watch.png"
     }
   },
 
 
 
 
-  "rich-text#text__second": { 
-    "props": { 
-      "text": "An amazing product",
-      "font": "t-heading-6"
+  "rich-text#paragraph__first--body": { 
+    "props": {
+      "text": "An amazing product.",
+      "font": "t-heading-4",
+      "blockClass": [
+        "paragraph__first--body"
+      ]
     }
   },
 
   "flex-layout.col#images--galeria": {
     "title": "Text col one home",
     "children": [
-      "image#watch__home"    
+      "image#watch__header"    
     ],
     "props": {
-      "width": "33%",
       "blockClass": [
         "col__one--text"
       ]
     }
+  },
+
+  "flex-layout.row#header__button--home": {
+    "title": "Button between watches home",
+    "children": [
+      "rich-text#button__header--home"
+    ]
+  },
+
+  "rich-text#button__header--home": {
+    "props": { 
+      "text": "Comprar",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+ 
   }
 
 

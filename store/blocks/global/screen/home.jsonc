@@ -1,9 +1,10 @@
 {
   "store.home": { 
     "blocks": [
-      "flex-layout.row#text__one--home",
-      "flex-layout.row#text__two--home",
-      "list-context.image-list#demo"
+      "flex-layout.row#header__images--home",
+      "flex-layout.row#paragraph__first--body",
+      "flex-layout.row#slider",
+      "list-context.image-list#first__carrusel--body"
 
     ]
   }

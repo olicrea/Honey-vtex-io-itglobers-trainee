@@ -1,6 +1,6 @@
 {
-  "list-context.image-list#demo": {
-    "title": "List image home",
+  "list-context.image-list#first__carrusel--body": {
+    "title": "List images with information",
     "children": ["slider-layout#demo-images"],
     "props": {
       "preload": true,
@@ -8,13 +8,13 @@
       "images": [
         {
           "loading": "eager",
-          "src": "assets/img/computador.png",
-          "description": "something something"
+          "src": "assets/img/screen.png",
+          "description": "cel screen"
         },
         {
-          "loading": "lazy",
-          "image": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/Group%207%20(1)%20(1)%20(1)%20(1)%20(1)___c6b3ed853fb16a08b265753b50e0c57a.png",
-          "description": "something something"
+          "loading": "eager",
+          "src": "assets/img/screen.png",
+          "description": "cel screen"
         }
       ]
     }
