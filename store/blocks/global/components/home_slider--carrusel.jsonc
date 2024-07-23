@@ -1,0 +1,143 @@
+{
+  "flex-layout.row#slider": {
+    "title": "Cards carrusel row",
+    "children": [
+      "slider-layout#screen-images"
+    ],
+    "props": {
+      "blockClass": [
+        "carrusel__total"
+      ]
+    }
+  },
+  "slider-layout#screen-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1.5
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": "custom_slider1"
+    },
+
+  "children": [
+    "flex-layout.col#card",
+    "flex-layout.col#card",
+    "flex-layout.col#card",
+    "flex-layout.col#card"
+  ]
+},
+  
+  "flex-layout.col#card": {
+    "title": "Card",
+    "children": [
+      "flex-layout.row#image",
+      "flex-layout.row#info",
+      "flex-layout.row#button"
+    ],
+    "props": {
+      "blockClass": [
+        "card"
+      ]
+    }
+  },
+  "flex-layout.row#image": {
+    "title": "Image card",
+    "props": {
+      "blockClass": [
+        "row__image--card"
+      ]
+    },
+    "children": [
+      "image#card"
+    ]
+    },
+
+    "image#card": {
+      "title": "Screen image card",
+      "props": {
+        "src": "assets/img/screen.png",
+        "blockClass": [
+          "screen__image--card"
+        ]
+      }
+    },
+    "flex-layout.row#info": {
+      "title": "Info title description and stamp",
+      "props":{
+        "blockClass": [
+          "info--card"
+        ]
+      },
+      "children": [
+        "flex-layout.col#description",
+        "flex-layout.col#stamp"
+      ]
+    },
+    "flex-layout.col#description": {
+      "title": "Title and description",
+      "props": {
+        "blockClass": ["card__info--and--description"]
+      },
+      "children": [
+        "rich-text#title",
+        "rich-text#description"
+      ]
+    },
+    "rich-text#title": {
+      "title": "Title",
+      "props": {
+        "font": "t-heading-4",
+        "blockClass": ["text--title"],
+        "text": "Heading"
+      }
+    },
+    "rich-text#description": {
+      "title": "Description",
+      "props": {
+        "font": "t-heading-2",
+        "blockClass": ["text--description"],
+        "text": "Builder platform is made by, buildership platform is made by"
+      }
+    },
+    "flex-layout.col#stamp": {
+      "title": "Stamp",
+      "children": [
+        "image#stamp"
+      ]
+    },
+    "image#stamp": {
+      "title": "Stamp image card",
+      "props": {
+        "src": "assets/img/stamp.png",
+        "blockClass": [
+          "stamp__image--card"
+        ]
+      }
+    },
+    "flex-layout.row#button": {
+      "title": "Button",
+      "props": {
+        "font": "t-heading-4",
+        "blockClass": [
+          "button--card"
+        ]
+      },
+      "children": [
+        "rich-text#button--card"
+      ]
+    },
+    "rich-text#button--card": {
+      "title": "Text button",
+      "props": {
+        "blockClass": [
+          "text--button"
+        ],
+        "text": "Ver precio"
+      }
+    }
+
+}

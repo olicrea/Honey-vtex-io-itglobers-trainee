@@ -101,7 +101,7 @@
   },
   "rich-text#paragraph__third--header": { 
     "props": { 
-      "text": "An amazing product.",
+      "text": "An amazing producto.",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-2",
