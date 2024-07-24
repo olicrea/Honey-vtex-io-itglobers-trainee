@@ -324,35 +324,35 @@
     ],
     "styles": {
       "heading-1": {
-        "fontFamily": "Lexend Bold",
+        "fontFamily": "Lexend",
         "fontWeight": "600",
         "fontSize": "48px",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-2": {
-        "fontFamily": "Lexend Light",
+        "fontFamily": "Lexend",
         "fontWeight": "300",
         "fontSize": "16px",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-3": {
-        "fontFamily": "Lexend Bold",
+        "fontFamily": "Lexend",
         "fontWeight": "400",
         "fontSize": "14px",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-4": {
-        "fontFamily": "Lexend Bold",
+        "fontFamily": "Lexend",
         "fontWeight": "300",
         "fontSize": "16px",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-5": {
-        "fontFamily": "Lexend Bold",
+        "fontFamily": "Lexend",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",

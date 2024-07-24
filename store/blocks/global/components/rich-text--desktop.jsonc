@@ -2,12 +2,23 @@
   "flex-layout.row#header__images--home": {
     "title": "Header images row home",
     "children": [
-      "flex-layout.col#image__normal--header"
+      "image#watch__header"
     ],
     "props": {
       "blockClass": [
         "flexi"
       ]
+    }
+  },
+  "image#watch__header": {
+    "title": "Image watch",
+    "props": {
+      "src": "/arquivos/hero_desktop.png",
+      "link": {
+        "url": "https://help.vtex.com/es/tutorial/importando-imagenes-por-plantilla--tutorials_262",
+        "noFollow": false,
+        "openNewTab": true
+      }
     }
   },
   "flex-layout.row#paragraph__first--body": {
@@ -23,107 +34,11 @@
   },
   "rich-text#paragraph__first--body": { 
     "props": {
-      "text": "An amazing producto.",
-      "font": "t-heading-4",
+      "text": "An amazing product.",
+      "font": "Lexend",
       "blockClass": [
         "paragraph__first--body"
       ]
     }
-  },
-  "flex-layout.row#text__three--home": {
-    "title": "Text row three home",
-    "children": [
-
-    ],
-    "props": {
-      "blockClass": [
-        "col__one--text"
-      ]
-    }
-  },
-  "flex-layout.col#image__normal--header": {
-    "title": "Image watch normal",
-    "children": [
-      "image#watch__header"
-    ],
-    "props": {
-      "width": "100%",
-      "blockClass": [
-        "col__one--text"
-      ]
-    }
-  },
-  "rich-text#paragraph__first--header": { 
-    "props": { 
-      "text": "iWATCH",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1",
-      "margin": "0",
-      "blockClass": [
-        "main__title"
-      ]
-    }
-    
-  },
-  "rich-text#paragraph__second--header": { 
-    "props": { 
-      "text": "ULTRA 2",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-2",
-      "margin": "0",
-      "blockClass": [
-        "ultra"
-      ]
-    }
-  },
-  "rich-text#paragraph__third--header": { 
-    "props": { 
-      "text": "An amazing producto.",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-2",
-      "blockClass": [
-        "paragraph__third--header"
-      ]
-    }
-  },
-  "image#watch__header": {
-    "title": "Image watch",
-    "props": {
-      "src": "/arquivos/hero_desktop.png"
-    }
-  },
-
-  "flex-layout.col#images--galeria": {
-    "title": "Text col one home",
-    "children": [
-      "image#watch__header"    
-    ],
-    "props": {
-      "blockClass": [
-        "col__one--text"
-      ]
-    }
-  },
-
-  "flex-layout.row#header__button--home": {
-    "title": "Button between watches home",
-    "children": [
-      "rich-text#button__header--home"
-    ]
-  },
-
-  "rich-text#button__header--home": {
-    "props": { 
-      "text": "Comprar",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-3"
-    }
- 
   }
-
-
 } 

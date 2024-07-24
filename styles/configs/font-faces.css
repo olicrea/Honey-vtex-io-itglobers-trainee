@@ -1,24 +1,6 @@
 @font-face {
-  font-family: 'Lexend Bold';
-  font-style: normal;
-  src: url('assets/fonts/Lexend-SemiBold.ttf');
+  font-family: 'Lexend';
+  src: url(/assets/fonts/Lexend-VariableFont_wght.woff2), url(/assets/fonts/Lexend.ttf);
 }
 
-@font-face {
-  font-family: 'Lexend Light';
-  font-style: normal;
-  src: url('assets/fonts/Lexend-Light.ttf');
-}
-
-@font-face {
-  font-family: 'Lexend Thin';
-  font-style: normal;
-  src: url('assets/fonts/Lexend-Thin.ttf');
-}
-
-@font-face {
-  font-family: 'Lexend Regular';
-  font-style: normal;
-  src: url('assets/fonts/Lexend-Regular.ttf');
-}
 

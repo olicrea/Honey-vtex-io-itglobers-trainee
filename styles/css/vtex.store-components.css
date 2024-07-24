@@ -1,0 +1,17 @@
+.imageElement--screen__image--card {
+  border-radius: 10px 10px 0px 0px;
+  height: 186px;
+  width: 324px;
+  object-fit: cover;
+  margin-right: 5px;
+}
+
+.container {
+  background-color: #F6F6F6;
+}
+
+.imageElement--stamp__image--card {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}

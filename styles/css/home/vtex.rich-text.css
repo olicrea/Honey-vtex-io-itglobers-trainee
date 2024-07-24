@@ -1,11 +1,42 @@
+.paragraph--paragraph__first--body {
+  color: #1D2734;
+  margin-left: 60px;  
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.container--text--title {
+  background-color: white;
+  padding-left: 20px;
+}
+
+.container--text--description {
+  background-color: white;
+  padding-left: 20px;
+}
+
+.paragraph--text--description {
+  font-size: 12px;
+  margin-bottom: 0px;
+  margin-top: 12px;
+}
+
+.paragraph--text--title {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.container--text--button {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
 .paragraph--main__title {
   color: #1D2734;
   margin-bottom: 0;
-}
-
-.paragraph--paragraph__first--body {
-  color: #1D2734;
-  margin-left: 30px;
 }
 
 .paragraph--ultra {
@@ -18,3 +49,4 @@
   color:#1D2734;
   margin-top: 0;
 }
+

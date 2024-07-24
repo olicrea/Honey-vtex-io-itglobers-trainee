@@ -20,10 +20,14 @@
       "infinite": true,
       "showNavigationArrows": "always",
       "showPaginationDots": "always",
-      "blockClass": ["carrusel__slider"]
+      "blockClass": [
+        "carrusel__slider"
+      ]
     },
 
   "children": [
+    "flex-layout.col#card",
+    "flex-layout.col#card",
     "flex-layout.col#card",
     "flex-layout.col#card",
     "flex-layout.col#card",
@@ -80,7 +84,10 @@
     "flex-layout.col#description": {
       "title": "Title and description",
       "props": {
-        "blockClass": ["card__info--and--description"]
+        "blockClass": [
+          "card__info--and--description"
+        ],
+        "width": "75%"
       },
       "children": [
         "rich-text#title",
@@ -90,16 +97,20 @@
     "rich-text#title": {
       "title": "Title",
       "props": {
-        "font": "t-heading-4",
-        "blockClass": ["text--title"],
+        "font": "Lexend",
+        "blockClass": [
+          "text--title"
+        ],
         "text": "Heading"
       }
     },
     "rich-text#description": {
       "title": "Description",
       "props": {
-        "font": "t-heading-2",
-        "blockClass": ["text--description"],
+        "font": "Lexend",
+        "blockClass": [
+          "text--description"
+        ],
         "text": "Builder platform is made by, buildership platform is made by"
       }
     },
@@ -107,7 +118,12 @@
       "title": "Stamp",
       "children": [
         "image#stamp"
-      ]
+      ],
+      "props": {
+        "blockClass": [
+          "space--stamp"
+        ]
+      }
     },
     "image#stamp": {
       "title": "Stamp image card",
@@ -121,7 +137,7 @@
     "flex-layout.row#button": {
       "title": "Button",
       "props": {
-        "font": "t-heading-4",
+        "font": "Lexend",
         "blockClass": [
           "button--card"
         ]
@@ -139,5 +155,4 @@
         "text": "Ver precio"
       }
     }
-
 }
