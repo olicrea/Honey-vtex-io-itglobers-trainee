@@ -20,7 +20,7 @@
       "infinite": true,
       "showNavigationArrows": "always",
       "showPaginationDots": "always",
-      "blockClass": "custom_slider1"
+      "blockClass": ["carrusel__slider"]
     },
 
   "children": [
@@ -59,7 +59,7 @@
     "image#card": {
       "title": "Screen image card",
       "props": {
-        "src": "assets/img/screen.png",
+        "src": "/arquivos/screen.png",
         "blockClass": [
           "screen__image--card"
         ]
@@ -112,7 +112,7 @@
     "image#stamp": {
       "title": "Stamp image card",
       "props": {
-        "src": "assets/img/stamp.png",
+        "src": "/arquivos/stamp.png",
         "blockClass": [
           "stamp__image--card"
         ]

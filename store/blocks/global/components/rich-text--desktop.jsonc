@@ -2,9 +2,7 @@
   "flex-layout.row#header__images--home": {
     "title": "Header images row home",
     "children": [
-      "flex-layout.col#image__normal--header",
-      "flex-layout.col#paragraph__first--header",
-      "flex-layout.col#image__rotate--header"
+      "flex-layout.col#image__normal--header"
     ],
     "props": {
       "blockClass": [
@@ -23,6 +21,15 @@
       ]
     }
   },
+  "rich-text#paragraph__first--body": { 
+    "props": {
+      "text": "An amazing producto.",
+      "font": "t-heading-4",
+      "blockClass": [
+        "paragraph__first--body"
+      ]
+    }
+  },
   "flex-layout.row#text__three--home": {
     "title": "Text row three home",
     "children": [
@@ -34,43 +41,15 @@
       ]
     }
   },
-
   "flex-layout.col#image__normal--header": {
     "title": "Image watch normal",
     "children": [
       "image#watch__header"
     ],
     "props": {
-      "width": "34%",
+      "width": "100%",
       "blockClass": [
         "col__one--text"
-      ]
-    }
-  },
-  "flex-layout.col#paragraph__first--header": {
-    "title": "Text between images",
-    "children": [
-      "rich-text#paragraph__first--header",
-      "rich-text#paragraph__second--header",
-      "rich-text#paragraph__third--header",
-      "flex-layout.row#header__button--home"
-    ],
-    "props": {
-      "width": "34%",
-      "blockClass": [
-        "col__two--text"
-      ]
-    }
-  },
-  "flex-layout.col#image__rotate--header": {
-    "title": "Image watch rotate",
-    "children": [
-      "image#watch__header" 
-    ],
-    "props": {
-      "width": "34%",
-      "blockClass": [
-        "col__three--text"
       ]
     }
   },
@@ -113,20 +92,7 @@
   "image#watch__header": {
     "title": "Image watch",
     "props": {
-      "src": "assets/img/watch.png"
-    }
-  },
-
-
-
-
-  "rich-text#paragraph__first--body": { 
-    "props": {
-      "text": "An amazing product.",
-      "font": "t-heading-4",
-      "blockClass": [
-        "paragraph__first--body"
-      ]
+      "src": "/arquivos/hero_desktop.png"
     }
   },
 
