@@ -3,7 +3,9 @@
     "blocks": [
       "flex-layout.row#header__images--home",
       "flex-layout.row#paragraph__first--body",
-      "flex-layout.row#slider",
+      "flex-layout.row#slider--screen",
+      "flex-layout.row#paragraph__first--body",
+      "flex-layout.row#slider--desktop",
       "flex-layout.row#paragraph__first--body"
     ]
   }

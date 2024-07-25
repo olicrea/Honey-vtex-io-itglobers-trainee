@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#slider": {
+  "flex-layout.row#slider--screen": {
     "title": "Cards carrusel row",
     "children": [
       "slider-layout#screen-images"
@@ -154,5 +154,175 @@
         ],
         "text": "Ver precio"
       }
+    },
+
+/*     Segundo slider */
+
+    "flex-layout.row#slider--desktop": {
+    "title": "Cards carrusel row",
+    "children": [
+      "slider-layout#screen-images--desktop"
+    ],
+    "props": {
+      "blockClass": [
+        "carrusel__total--desktop"
+      ]
     }
+  },
+  "slider-layout#screen-images--desktop": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1.5
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": [
+        "carrusel__slider--desktop"
+      ]
+    },
+
+  "children": [
+    "flex-layout.col#slider--desktop",
+    "flex-layout.col#slider--desktop",
+    "flex-layout.col#slider--desktop",
+    "flex-layout.col#slider--desktop",
+    "flex-layout.col#slider--desktop",
+    "flex-layout.col#slider--desktop"
+  ]
+},    
+  "flex-layout.col#slider--desktop": {
+    "title": "infocard desktop",
+    "children": [
+      "flex-layout.row#percent--and--like",
+      "flex-layout.row#empty1",
+      "flex-layout.row#desktop--slide",
+      "flex-layout.row#description",
+      "flex-layout.row#prices-and-delivery",
+      "flex-layout.row#buy"
+        ],
+    "props": {
+      "blockClass": [
+        "infocard--desktop"
+      ]
+    }
+    },
+    "flex-layout.row#percent--and--like": {
+      "title": "percent and like",
+      "children": [
+        "flex-layout.col#percent",
+        "flex-layout.col#empty",
+        "flex-layout.col#like"
+      ],
+      "props": {
+        "blockClass": [
+          "percent--like"
+        ]
+      }
+    },
+    "flex-layout.col#percent": {
+      "title": "percent space",
+      "props": {
+        "border": "all",
+        "borderWidth": 1,
+        "blockClass": [
+          "percent"
+        ]
+      }
+    },
+    "flex-layout.col#empty": {
+      "title": "space"
+    },
+    "flex-layout.col#like": {
+      "title": "like",
+      "props": {
+        "border": "all",
+        "borderWidth": 1,
+        "blockClass": [
+          "like"
+        ]
+      }
+    },
+    "flex-layout.row#empty1": {
+      "title": "empty1",
+      "props": {
+        "blockClass": [
+          "empty--desktop"
+        ]
+      }
+    },
+    "flex-layout.row#desktop--slide": {
+      "title": "Space image desktop",
+      "children": [
+        "image#desktop--slider"
+      ]
+    },
+    "image#desktop--slider": {
+      "title": "Image desktop",
+      "props": {
+        "src": "/arquivos/desktop.png",
+        "blockClass": [
+          "image-desktop--slider"
+        ]
+      }
+    },
+    "flex-layout.row#description": {
+      "title": "Space desktop description",
+      "props": {
+        "blockClass": [
+          "space-desktop-description"
+        ]
+      },
+      "children": [
+        "rich-text#desktop-description"
+      ]
+    },
+    "rich-text#desktop-description": {
+      "title": "Desktop description",
+      "props": {
+        "text": "Descripción del producto en hasta tres líneas de texto explicativo",
+        "blockClass": [
+          "desktop-description"
+        ]
+      }
+    },
+    "flex-layout.row#prices-and-delivery": {
+      "children": [
+        "rich-text#prices1",
+        "rich-text#prices2",
+        "rich-text#delivery"
+      ]
+    },
+    "rich-text#prices1": {
+      "title": "Previus price",
+      "props": {
+        "text": "836.900"
+      }
+    },
+    "rich-text#prices2": {
+      "title": "Previus price",
+      "props": {
+        "text": "636.900"
+      }
+    },
+    "rich-text#delivery": {
+      "title": "Previus price",
+      "props": {
+        "text": "Envío gratis"
+      }
+    },
+    "flex-layout.row#buy": {
+      "title": "buy",
+      "props": {
+        "border": "all",
+        "borderWidth": 1,
+        "blockClass": [
+          "buy"
+        ]
+      }
+    }
+
+
 }

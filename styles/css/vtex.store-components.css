@@ -15,3 +15,9 @@
   margin-top: 10px;
   margin-right: 10px;
 }
+
+/* Segundo slider */
+.imageElement--image-desktop--slider {
+  height: 140px;
+  width: 178px;
+}

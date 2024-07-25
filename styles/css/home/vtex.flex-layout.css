@@ -6,14 +6,13 @@
   height: 336px;
 }
 
-.slideChildrenCpntainer--carrusel--slider {
+.slideChildrenContainer--carrusel--slider {
   padding: 20px;
 }
 
 .flexColChild--space--stamp {
   background-color: white;
   margin-right: 0px;
-  float: right;
 }
 
 .flexCol--space--stamp {
@@ -38,3 +37,38 @@
   background-color: #F0F0F2;
   transform: rotate(180deg);
 }
+
+/* 2do slider */
+
+.flexCol--infocard--desktop {
+  height: 378px;
+}
+
+.flexColChild--infocard--desktop {
+  width: 312px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: white;
+}
+
+.flexCol--like {
+  height: 50px;
+  border-radius: 5px;
+}
+
+.flexCol--percent {
+  height: 50px;
+  border-radius: 5px;
+  background-color: #1D2734;
+}
+
+.flexCol--empty--desktop {
+  height: 10px;
+}
+
+.flexRowContent--buy {
+  height: 30px;
+}
+
+
+
