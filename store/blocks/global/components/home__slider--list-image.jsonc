@@ -1,35 +1,84 @@
 {
-  "list-context.image-list#first__carrusel--body": {
-    "title": "List images with information",
-    "children": ["slider-layout#demo-images"],
+  "flex-layout.row#carrusel__product--summary": {
+    "title": "Container products",
+    "children": [
+      "list-context.product-list"
+    ],
     "props": {
-      "preload": true,
-      "height": 650,
-      "images": [
-        {
-          "loading": "eager",
-          "src": "assets/img/screen.png",
-          "description": "cel screen"
-        },
-        {
-          "loading": "eager",
-          "src": "assets/img/screen.png",
-          "description": "cel screen"
-        }
+      "blockClass": [
+        "carrusel-container-products"
       ]
     }
   },
-
-  "slider-layout#demo-images": {
-    "title": "Slider home demo images empty",
+  "product-summary.shelf#carrusel": {
+    "children": [
+      //"flex-layout.col#percent-like",
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+  "list-context.product-list#carrusel": {
+    "title": "Products list",
+    "blocks": [
+      "product-summary.shelf#carrusel"
+    ],
+    "children": [
+      "slider-layout#carrusel"
+    ]
+  },
+  "slider-layout#carrusel": {
     "props": {
       "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1.5
       },
-      "infinite": true
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": [
+        "carrusel-slider"
+      ]
+    },
+    "children": [
+      "flex-layout.row#summary"
+
+    ]
+  },
+  "flex-layout.col#percent-like": {
+    "title": "Percent and like",
+    "children": [
+
+    ]
+  },
+  "product-summary-image": {
+    "props": {
+        "showBadge": true,
+        "height": 220,
+        "blockClass": [
+          "image-product-summary"
+        ]
+      }
+  },
+  "product-summary-name": {
+    "props": {
+      "blockClass": [
+        "summary-name"
+      ]
+    }
+  },
+  "product-summary-buy-button": {
+    "props": {
+      "isOneClickBuy": false,
+      "blockClass": [
+        "summary-buy-button"
+      ]
     }
   }
+
+
+
 
 }

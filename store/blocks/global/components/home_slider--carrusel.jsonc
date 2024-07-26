@@ -24,14 +24,13 @@
         "carrusel__slider"
       ]
     },
-
-  "children": [
-    "flex-layout.col#card",
-    "flex-layout.col#card",
-    "flex-layout.col#card",
-    "flex-layout.col#card",
-    "flex-layout.col#card",
-    "flex-layout.col#card"
+    "children": [
+      "flex-layout.col#card",
+      "flex-layout.col#card",
+      "flex-layout.col#card",
+      "flex-layout.col#card",
+      "flex-layout.col#card",
+      "flex-layout.col#card"
   ]
 },
   
@@ -155,10 +154,10 @@
         "text": "Ver precio"
       }
     },
+    
+    /*     Segundo slider */
 
-/*     Segundo slider */
-
-    "flex-layout.row#slider--desktop": {
+   "flex-layout.row#slider--desktop": {
     "title": "Cards carrusel row",
     "children": [
       "slider-layout#screen-images--desktop"
@@ -172,7 +171,7 @@
   "slider-layout#screen-images--desktop": {
     "props": {
       "itemsPerPage": {
-        "desktop": 3,
+        "desktop": 5,
         "tablet": 3,
         "phone": 1.5
       },
@@ -183,8 +182,8 @@
         "carrusel__slider--desktop"
       ]
     },
-
-  "children": [
+    
+    "children": [
     "flex-layout.col#slider--desktop",
     "flex-layout.col#slider--desktop",
     "flex-layout.col#slider--desktop",
@@ -197,12 +196,13 @@
     "title": "infocard desktop",
     "children": [
       "flex-layout.row#percent--and--like",
-      "flex-layout.row#empty1",
       "flex-layout.row#desktop--slide",
       "flex-layout.row#description",
-      "flex-layout.row#prices-and-delivery",
+      "rich-text#prices--one",
+      "rich-text#prices--two",
+      "rich-text#delivery",
       "flex-layout.row#buy"
-        ],
+    ],
     "props": {
       "blockClass": [
         "infocard--desktop"
@@ -232,24 +232,19 @@
         ]
       }
     },
+
     "flex-layout.col#empty": {
-      "title": "space"
+      "title": "Empty"
     },
+    
     "flex-layout.col#like": {
       "title": "like",
       "props": {
+        "width": "25%",
         "border": "all",
         "borderWidth": 1,
         "blockClass": [
           "like"
-        ]
-      }
-    },
-    "flex-layout.row#empty1": {
-      "title": "empty1",
-      "props": {
-        "blockClass": [
-          "empty--desktop"
         ]
       }
     },
@@ -288,29 +283,31 @@
         ]
       }
     },
-    "flex-layout.row#prices-and-delivery": {
-      "children": [
-        "rich-text#prices1",
-        "rich-text#prices2",
-        "rich-text#delivery"
-      ]
-    },
-    "rich-text#prices1": {
+    "rich-text#prices--one": {
       "title": "Previus price",
       "props": {
-        "text": "836.900"
+        "text": "836.900",
+        "blockClass": [
+          "price-one"
+        ]
       }
     },
-    "rich-text#prices2": {
+    "rich-text#prices--two": {
       "title": "Previus price",
       "props": {
-        "text": "636.900"
+        "text": "636.900",
+        "blockClass": [
+          "price-two"
+        ]
       }
     },
     "rich-text#delivery": {
-      "title": "Previus price",
+      "title": "Free delivery",
       "props": {
-        "text": "Envío gratis"
+        "text": "Envío gratis",
+        "blockClass": [
+          "free-delivery"
+        ]
       }
     },
     "flex-layout.row#buy": {
@@ -324,5 +321,6 @@
       }
     }
 
-
-}
+    
+    
+  }

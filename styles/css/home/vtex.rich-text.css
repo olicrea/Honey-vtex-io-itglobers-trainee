@@ -53,21 +53,32 @@
 
 /* Segundo slider */
 
-.paragraph--percent {
-  color: blue;
-}
-
 .paragraph--desktop-description {
   color: #1D2734;
   opacity: 6;
   font-size: 14px;
 }
-.paragraph--price1 {
-  font-size: 10px;
+
+.container--price-one {
+  height: 20px;
 }
-.paragraph--price2 {
-  font-size: 10px;
+
+.container--price-two {
+  height: 12px;
 }
-.paragraph--delivery {
-  font-size: 10px;
+
+.container--free-delivery {
+  height: 17px;
+}
+
+.paragraph--price-one {
+  font-size: 5px;
+}
+
+.paragraph--price-two {
+  font-size: 5px;
+}
+
+.paragraph--free.delivery {
+  font-size: 5px;
 }

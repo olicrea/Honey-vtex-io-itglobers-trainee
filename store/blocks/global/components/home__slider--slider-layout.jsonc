@@ -13,8 +13,7 @@
     },
     "children": [
       "flex-layout.row#test__one--slider-home",
-      "image#example__2",
-      "image#example__3"
+      "image#example__2"
     ]
   },
 
@@ -27,13 +26,13 @@
   "rich-text#2": {
     "title": "Text two",
     "props": {
-      "text": "Test2"
+      "text": "oioioioioioi"
     }
   },
   "rich-text#3": {
     "title": "Text three",
     "props": {
-      "text": "Test3"
+      "text": "lklklklklklklk"
     }
   },
   "image#example__1": {

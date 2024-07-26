@@ -40,24 +40,19 @@
 
 /* 2do slider */
 
-.flexCol--infocard--desktop {
-  height: 378px;
-}
-
 .flexColChild--infocard--desktop {
-  width: 312px;
-  margin-left: 20px;
-  margin-right: 20px;
   background-color: white;
 }
 
 .flexCol--like {
-  height: 50px;
+  height: 32px;
   border-radius: 5px;
+  margin-right: 7px;
+  border-width: 1px;
 }
 
 .flexCol--percent {
-  height: 50px;
+  height: 32px;
   border-radius: 5px;
   background-color: #1D2734;
 }
@@ -67,7 +62,15 @@
 }
 
 .flexRowContent--buy {
-  height: 30px;
+  width: 210px;
+  height: 48px;
+  border-radius: 10px;
+  margin-left: 5px;
+  border-width: 1.5px;
+}
+
+.flexRow--carrusel__total--desktop {
+  margin: 0 70px 0 70px;
 }
 
 
