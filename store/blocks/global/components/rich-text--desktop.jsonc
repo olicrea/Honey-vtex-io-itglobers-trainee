@@ -35,7 +35,6 @@
   "rich-text#paragraph__first--body": { 
     "props": {
       "text": "An amazing product.",
-      "font": "Lexend",
       "blockClass": [
         "paragraph__first--body"
       ]

@@ -1,6 +1,13 @@
 @font-face {
   font-family: 'Lexend';
+  font-weight: normal;
   src: url(/assets/fonts/Lexend-VariableFont_wght.woff2), url(/assets/fonts/Lexend.ttf);
+}
+
+@font-face {
+  font-family: 'Lexend';
+  font-weight: bold;
+  src: url(/assets/fonts/Lexend-Bold.ttf);
 }
 
 

@@ -74,13 +74,15 @@
     "white-10": "rgba(255,255,255,.1)",
     "white-05": "rgba(255,255,255,.05)",
     "white-025": "rgba(255,255,255,.025)",
-    "white-0125": "rgba(255,255,255,.0125)"
+    "white-0125": "rgba(255,255,255,.0125)",
+    "white-100": "rgba(255,255,255)"
+
   },
   "semanticColors": {
     "background": {
-      "base": "#ffffff",
+      "base": "#f6f6f6",
       "base--inverted": "#03044e",
-      "action-primary": "#0F3E99",
+      "action-primary": "#f6f6f6",
       "action-secondary": "#eef3f7",
       "emphasis": "#f71963",
       "disabled": "#f2f4f5",
@@ -172,7 +174,7 @@
       "warning--faded": "#fff6e0"
     },
     "border": {
-      "action-primary": "#0F3E99",
+      "action-primary": "#1D2734",
       "action-secondary": "#eef3f7",
       "emphasis": "#f71963",
       "disabled": "#e3e4e6",
@@ -324,35 +326,35 @@
     ],
     "styles": {
       "heading-1": {
-        "fontFamily": "Lexend",
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "600",
         "fontSize": "48px",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-2": {
-        "fontFamily": "Lexend",
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "300",
         "fontSize": "16px",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-3": {
-        "fontFamily": "Lexend",
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "400",
         "fontSize": "14px",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-4": {
-        "fontFamily": "Lexend",
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "300",
         "fontSize": "16px",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-5": {
-        "fontFamily": "Lexend",
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",
@@ -389,8 +391,8 @@
       "action": {
         "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "500",
-        "fontSize": "1rem",
-        "textTransform": "uppercase",
+        "fontSize": "0.9375rem",
+        "textTransform": "initial",
         "letterSpacing": "0"
       },
       "action--small": {

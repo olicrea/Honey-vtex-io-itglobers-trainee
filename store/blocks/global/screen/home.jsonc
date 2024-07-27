@@ -3,17 +3,67 @@
     "blocks": [
       "flex-layout.row#header__images--home",
       "flex-layout.row#paragraph__first--body",
-      "flex-layout.row#slider--screen",
+      "slider-layout#screen-images",
       "flex-layout.row#paragraph__first--body",
-      "flex-layout.row#slider--desktop",
+      "shelf#home",
       "flex-layout.row#paragraph__first--body",
-      "flex-layout.row#slider--screen",
-      "flex-layout.row#carrusel__product--summary",
+      "slider-layout#screen-images",
+      "shelf#home",
+      //"flex-layout.row#carrusel__product--summary",
       "flex-layout.row#paragraph__first--body"
-
-
-
-
     ]
   }
 }
+
+/* "flex-layout.row#button": {
+  "children": [
+    "link"
+  ]
+},
+"link": {
+  "props": {
+    "href": "#",
+    "displayMode": "button",
+    "buttonProps": {
+      "variant": "primary"
+    },
+    "blockClass": [
+      "button"
+    ]
+  }
+} */
+
+/* "list-context.image-list#home": {
+  "children": [
+    "slider-layout#home-images"
+  ],
+  "props": {
+    "height": 600,
+    "images": [
+      {
+        "image": "assets/img/desktop.png",
+        "description": "Desktop image"
+      },
+      {
+        "image": "assets/img/screen.png",
+        "description": "Screen image"
+      }
+    ]
+  }
+},
+"slider-layout#home-images": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 2,
+      "tablet": 3,
+      "phone": 1.5
+    },
+    //"minItemsPerPage": 1,
+    "infinite": true,
+    "showNavigationArrows": "always",
+    "showPaginationDots": "always",
+    "blockClass": [
+      //"carrusel__slider"
+    ]
+  }
+} */
