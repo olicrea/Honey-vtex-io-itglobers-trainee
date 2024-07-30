@@ -24,10 +24,11 @@
 
   "product-summary.shelf": {
     "children": [
-      "product-summary-image",
-      "product-summary-name",
+      "image#shelf",
+      "rich-text#shelf",
       "product-summary-space",
       "product-specification-badges",
+      "product-price",
       "add-to-cart-button"
       //"product-summary-price"
       //"product-summary-add-to-list-button"

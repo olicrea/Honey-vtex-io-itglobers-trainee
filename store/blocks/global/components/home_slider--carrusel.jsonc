@@ -37,10 +37,10 @@
     "id": "infocard-screen",
     "isFullModeStyle": false,
     "textPosition": "left",
-    "imageUrl": "assets/img/screen.png",
+    "imageUrl": "/arquivos/screen.png",
     "headline": "Heading",
     "subhead": "Builder platform is made by, buildership platform is made by...",
-    "callToActionText": "Ver precio",
+    "callToActionText": "Ver preciooo",
     "callToActionUrl": "https://developers.vtex.com/docs/apps/vtex.store-components/infocard",
     "textAlignment": "left",
     "blockClass": "infocard--screen"
@@ -60,7 +60,8 @@
         "itemsPerPage": 5,
         "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
-        "arrows": true
+        "arrows": true,
+        "titleText": "."
       }
     }
   },
@@ -69,11 +70,40 @@
     "props": {
       "text": "Comprar",
       "blockClass": [
-        "all-buttons"
+        "button-shelf"
       ]
     }
   },
-  "product-summary-image": {
+  "image#shelf": {
+    "title": "Desktop image card",
+    "props": {
+      "src": "/arquivos/desktop.png",
+      "blockClass": [
+        "image-shelf"
+      ]
+    }
+  },
+  "rich-text#shelf": {
+    "title": "Image's description",
+    "props": {
+      "blockClass": [
+        "description-shelf"
+      ],
+      "text": "Descripción del producto en hasta tres líneas de texto explicativo"
+    }
+  },
+  "product-price": {
+    "title": "Two prices",
+    "props": {
+      "showSavings": false,
+      "showListPrice":  true,
+      "blockClass": [
+        "price-shelf"
+      ]
+    }
+  }
+}
+/*   "product-summary-image": {
     "props": {
       "showBadge": true,
       "height": {
@@ -85,8 +115,7 @@
       "badgeText": "20% OFF",
       "showCollections": true
     }
-  }
-}
+  } */
 
 
 /* "flex-layout.col#card": {

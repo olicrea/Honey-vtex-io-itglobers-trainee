@@ -1,0 +1,11 @@
+:global(.vtex-add-to-cart-button-0-x-buttonDataContainer) {
+  width: 212px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.buttonText--button-shelf {
+  color: #1D2734;
+
+}

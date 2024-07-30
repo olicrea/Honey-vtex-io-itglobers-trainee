@@ -53,7 +53,18 @@
 
 /* Segundo slider */
 
-.paragraph--desktop-description {
+.paragraph--description-shelf {
+  color: rgba(29, 39, 52, 0.6);
+  font-size: 14px;
+  text-decoration: none;
+  text-decoration-color: aqua;
+}
+
+/* .vtex-rich-text-0-x-paragraph--description-shelf {
+} */
+
+
+/* .paragraph--desktop-description {
   color: #1D2734;
   opacity: 6;
   font-size: 14px;
@@ -81,4 +92,4 @@
 
 .paragraph--free.delivery {
   font-size: 5px;
-}
+} */
