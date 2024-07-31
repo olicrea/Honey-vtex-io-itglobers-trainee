@@ -12,7 +12,7 @@
   height: 2px;
   content: "";
   font-size: 0;
-  background-color: #1D2734;
+  background-color: rgba(29, 39, 52, 0.4);
   position: absolute;
 }
 .paginationDot {
@@ -25,4 +25,17 @@
   align-items: center;
   justify-content: center;
   margin: 0 2px;
+}
+
+.paginationDot--isActive::after {
+  width: 44px;
+  height: 2px;
+  content: "";
+  font-size: 0;
+  background-color: rgba(29, 39, 52, 0.4);
+  position: absolute;
+}
+
+.paginationDotsContainer{
+  margin: -60px;
 }

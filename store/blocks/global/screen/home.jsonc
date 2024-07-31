@@ -5,10 +5,10 @@
       "flex-layout.row#paragraph__first--body",
       "slider-layout#screen-images",
       "flex-layout.row#paragraph__first--body",
-      "shelf#home",
+      "list-context.product-list#honey",
       "flex-layout.row#paragraph__first--body",
       "slider-layout#screen-images",
-      "shelf#home",
+      "list-context.product-list#honey",
       //"flex-layout.row#carrusel__product--summary",
       "flex-layout.row#paragraph__first--body"
     ]

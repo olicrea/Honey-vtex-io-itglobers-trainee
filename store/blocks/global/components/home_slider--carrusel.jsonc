@@ -9,6 +9,8 @@
       },
       //"minItemsPerPage": 1,
       "infinite": true,
+      "navigationStep": 1,
+      "centerMode": "to-the-left",
       "showNavigationArrows": "always",
       "showPaginationDots": "always",
       "blockClass": [
@@ -16,22 +18,28 @@
       ]
     },
     "children": [
-      "info-card#screen-two",
-      "info-card#screen-two",
-      "info-card#screen-two",
-      "info-card#screen-two",
-      "info-card#screen-two",
-      "info-card#screen-two",
-      "info-card#screen-two",
-      "info-card#screen-two",
-      "info-card#screen-two",
-      "info-card#screen-two",
-      "info-card#screen-two",
-      "info-card#screen-two"
+      "image#info-card",
+      "image#info-card",
+      "image#info-card",
+      "image#info-card",
+      "image#info-card",
+      "image#info-card",
+      "image#info-card",
+      "image#info-card"
   ]
 },
 
-"info-card#screen-two": {
+"image#info-card": {
+  "title": "Image card",
+  "props": {
+    "src": "assets/img/infocard.jpeg",
+    "blockClass": [
+      "image-card"
+    ]
+}
+},
+
+/* "info-card#screen-two": {
   "props": {
     "title": "Infocard screen",
     "id": "infocard-screen",
@@ -40,18 +48,51 @@
     "imageUrl": "/arquivos/screen.png",
     "headline": "Heading",
     "subhead": "Builder platform is made by, buildership platform is made by...",
-    "callToActionText": "Ver preciooo",
+    "callToActionText": "Ver precio",
     "callToActionUrl": "https://developers.vtex.com/docs/apps/vtex.store-components/infocard",
     "textAlignment": "left",
     "blockClass": "infocard--screen"
   }
-},
+}, */
 
 /* ----------Product-summary---------- */
-"shelf#home": {
+"list-context.product-list#honey": {
     "blocks": [
       "product-summary.shelf"
     ],
+    "children": [
+      "slider-layout#product-summary"
+    ]
+    },
+    "slider-layout#product-summary": {
+      "title": "Carrusel- product summary",
+      "props": {
+          "itemsPerPage": {
+              "desktop": 5,
+              "tablet": 1,
+              "phone": 1
+          },
+          "infinite": true,
+          "navigationStep": 1,
+          "centerMode": "to-the-left",
+          "showNavigationArrows": "desktopOnly",
+          "showPaginationDots": "always",
+          "centerModeSlidesGap": 7,
+          "fullWidth": false,
+          "blockClass": [
+            "carrusel-product-summary"
+          ]
+          },
+      "children": [
+      ]
+  },
+  "add-to-list-btn": {
+    "props":{
+        "blockClass": "wish-list",
+        "textAlignment": "right"
+    }
+},
+    /* ,
     "props": {
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "desktopOnly",
@@ -63,8 +104,7 @@
         "arrows": true,
         "titleText": "."
       }
-    }
-  },
+    } */
   
   "add-to-cart-button": {
     "props": {
@@ -74,7 +114,19 @@
       ]
     }
   },
-  "image#shelf": {
+  "rich-text#envio__gratis__text2-slider-home": {
+    "title": "New price",
+    "props": {
+        "text": "Envío gratis",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "blockClass": [
+
+        ]
+    }
+},
+
+/*   "image#shelf": {
     "title": "Desktop image card",
     "props": {
       "src": "/arquivos/desktop.png",
@@ -91,7 +143,7 @@
       ],
       "text": "Descripción del producto en hasta tres líneas de texto explicativo"
     }
-  },
+  }, */
   "product-price": {
     "title": "Two prices",
     "props": {

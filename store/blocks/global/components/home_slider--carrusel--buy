@@ -1,0 +1,44 @@
+{
+  "flex-layout.row#slider--two": {
+    "title": "Cards carrusel row",
+    "children": [
+      "slider-layout#screen-imagestwo"
+    ],
+    "props": {
+      "blockClass": [
+        "carrusel__total2"
+      ]
+    }
+  },
+  "slider-layout#screen-images2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1.5
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": [
+        "carrusel__slidertwo"
+      ]
+    },
+
+  "children": [
+    "flex-layout.col#slider",
+    "flex-layout.col#slider",
+    "flex-layout.col#slider",
+    "flex-layout.col#slider",
+    "flex-layout.col#slider",
+    "flex-layout.col#slider"
+  ]
+},    
+  "flex-layout.col#slider": {
+        "title": "infocard desktop",
+        "children": [
+  
+        ]
+
+    }
+}
