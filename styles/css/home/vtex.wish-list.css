@@ -1,0 +1,8 @@
+.wishlistIcon--wish-list-icon {
+  background: url("/arquivos/add-to--favorites.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.wishlistIconContainer--wish-list-icon :global(.vtex-button) {
+  border: 1px solid #1D2734;
+}

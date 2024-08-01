@@ -3,11 +3,11 @@
     "blocks": [
       "flex-layout.row#header__images--home",
       "flex-layout.row#paragraph__first--body",
-      "slider-layout#screen-images",
+      "flex-layout.row#row__slider--infocard",
       "flex-layout.row#paragraph__first--body",
       "list-context.product-list#honey",
       "flex-layout.row#paragraph__first--body",
-      "slider-layout#screen-images",
+      "flex-layout.row#row__slider--infocard",
       "list-context.product-list#honey",
       //"flex-layout.row#carrusel__product--summary",
       "flex-layout.row#paragraph__first--body"

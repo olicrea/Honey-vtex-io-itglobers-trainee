@@ -24,7 +24,7 @@
 
   "product-summary.shelf": {
     "children": [
-      "add-to-list-btn",
+      "flex-layout.row#global__main--summary",
       "product-summary-image",
       "product-summary-description",
       "product-summary-space",
@@ -32,12 +32,13 @@
       "product-price",
       "rich-text#envio__gratis__text2-slider-home",
       "add-to-cart-button"
-      //"product-rating-inline"
-      //"product-identifier.summary"
+      //"add-to-list-btn",
+      //"product-rating-inline",
+      //"product-identifier.summary",
       //"rich-text#shelf",
-      //"product-summary-price"
+      //"product-summary-price",
       //"image#shelf",
-      //"product-summary-add-to-list-button"
+      //"product-summary-add-to-list-button",
     ]
   }
 

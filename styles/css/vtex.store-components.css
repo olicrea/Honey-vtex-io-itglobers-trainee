@@ -1,29 +1,12 @@
-.imageElement--screen__image--card {
-  border-radius: 10px 10px 0px 0px;
-  height: 186px;
-  width: 324px;
-  object-fit: cover;
-  margin-right: 5px;
+/* infocard como imagen de figma  */
+
+.imageElement--image-card {
+  max-height: 336.46px;
+  max-width: 324px;
 }
 
-/* .container {
-  background-color: #F6F6F6;
-} */
-
-.imageElement--stamp__image--card {
-  float: right;
-  margin-top: 10px;
-  margin-right: 10px;
-}
-
-/* Segundo slider */
-.imageElement--image-desktop--slider {
-  height: 140px;
-  width: 178px;
-}
-
-/* infocard */
-.infoCardContainer {
+/* infocard como infocard */
+/* .infoCardContainer {
   display: flex;
   flex-direction: column-reverse; 
   align-items: center;
@@ -55,5 +38,5 @@
 .infoCardCallActionContainer :global(.vtex-button) {
   border-radius: 40px;
   background-color: #1D2734;
-}
+} */
 

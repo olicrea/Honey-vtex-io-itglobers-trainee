@@ -1,5 +1,17 @@
 {
 /* ----------Slider infocard---------- */
+  "flex-layout.row#row__slider--infocard": {
+    "title": "Row for slider-infocard",
+    "children": [
+      "slider-layout#screen-images"
+    ],
+    "props": {
+      "blockClass": [
+        "row__slider--infocard"
+      ]
+    }
+
+  },
   "slider-layout#screen-images": {
     "props": {
       "itemsPerPage": {
@@ -14,7 +26,7 @@
       "showNavigationArrows": "always",
       "showPaginationDots": "always",
       "blockClass": [
-        //"carrusel__slider"
+        "carrusel__slider"
       ]
     },
     "children": [
@@ -39,73 +51,63 @@
 }
 },
 
-/* "info-card#screen-two": {
-  "props": {
-    "title": "Infocard screen",
-    "id": "infocard-screen",
-    "isFullModeStyle": false,
-    "textPosition": "left",
-    "imageUrl": "/arquivos/screen.png",
-    "headline": "Heading",
-    "subhead": "Builder platform is made by, buildership platform is made by...",
-    "callToActionText": "Ver precio",
-    "callToActionUrl": "https://developers.vtex.com/docs/apps/vtex.store-components/infocard",
-    "textAlignment": "left",
-    "blockClass": "infocard--screen"
-  }
-}, */
+
 
 /* ----------Product-summary---------- */
-"list-context.product-list#honey": {
+  "list-context.product-list#honey": {
     "blocks": [
       "product-summary.shelf"
     ],
     "children": [
       "slider-layout#product-summary"
     ]
-    },
-    "slider-layout#product-summary": {
-      "title": "Carrusel- product summary",
-      "props": {
-          "itemsPerPage": {
-              "desktop": 5,
-              "tablet": 1,
-              "phone": 1
-          },
-          "infinite": true,
-          "navigationStep": 1,
-          "centerMode": "to-the-left",
-          "showNavigationArrows": "desktopOnly",
-          "showPaginationDots": "always",
-          "centerModeSlidesGap": 7,
-          "fullWidth": false,
-          "blockClass": [
-            "carrusel-product-summary"
-          ]
-          },
-      "children": [
-      ]
   },
-  "add-to-list-btn": {
-    "props":{
-        "blockClass": "wish-list",
-        "textAlignment": "right"
-    }
-},
-    /* ,
+  "slider-layout#product-summary": {
+    "title": "Carrusel- product summary",
+      "props": {
+        "itemsPerPage": {
+          "desktop": 5,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "navigationStep": 1,
+        "centerMode": "to-the-left",
+        "showNavigationArrows": "desktopOnly",
+        "showPaginationDots": "always",
+        "centerModeSlidesGap": 7,
+        "fullWidth": false,
+        "blockClass": [
+          "carrusel-product-summary"
+        ]
+      },
+      "children": [
+
+      ]
+    },
+  "flex-layout.row#global__main--summary": {
+    "title": "Product summary wish list and discount row",
+    "children": [
+      "product-price-savings",
+      "add-to-list-btn"
+    ]
+  },
+  "product-price-savings": {
     "props": {
-      "orderBy": "OrderByTopSaleDESC",
-      "paginationDotsVisibility": "desktopOnly",
-      "productList": {
-        "maxItems": 10,
-        "itemsPerPage": 5,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "titleText": "."
-      }
-    } */
-  
+      "blockClass": "savings__summary",
+      "message": "{savingsPercentage} OFF"
+    }
+  },
+  "product-summary-image": {
+    "title": "Image to product summary",
+    "props": {
+      "showBadge": false,
+      "height": 220,
+      "blockClass": [
+        "summary-image" 
+      ]
+    }
+  },
   "add-to-cart-button": {
     "props": {
       "text": "Comprar",
@@ -125,336 +127,15 @@
         ]
     }
 },
-
-/*   "image#shelf": {
-    "title": "Desktop image card",
-    "props": {
-      "src": "/arquivos/desktop.png",
-      "blockClass": [
-        "image-shelf"
-      ]
-    }
-  },
-  "rich-text#shelf": {
-    "title": "Image's description",
-    "props": {
-      "blockClass": [
-        "description-shelf"
-      ],
-      "text": "Descripción del producto en hasta tres líneas de texto explicativo"
-    }
-  }, */
-  "product-price": {
-    "title": "Two prices",
-    "props": {
-      "showSavings": false,
-      "showListPrice":  true,
-      "blockClass": [
-        "price-shelf"
-      ]
-    }
+"product-price": {
+  "title": "Two prices",
+  "props": {
+    "showSavings": false,
+    "showListPrice":  true,
+    "blockClass": [
+      "price-shelf"
+    ]
   }
 }
-/*   "product-summary-image": {
-    "props": {
-      "showBadge": true,
-      "height": {
-        "desktop": 140
-      },
-      "width": {
-        "desktop": 178
-      },
-      "badgeText": "20% OFF",
-      "showCollections": true
-    }
-  } */
-
-
-/* "flex-layout.col#card": {
-  "title": "Card",
-  "children": [
-    "flex-layout.row#image",
-    "flex-layout.row#info",
-    "flex-layout.row#button"
-  ],
-  "props": {
-    "blockClass": [
-      "card"
-    ]
-  }
-},
-"flex-layout.row#image": {
-  "title": "Image card",
-  "props": {
-    "blockClass": [
-      "row__image--card"
-    ]
-  },
-  "children": [
-    "image#card"
-  ]
-  },
-
-  "image#card": {
-    "title": "Screen image card",
-    "props": {
-      "src": "/arquivos/screen.png",
-      "blockClass": [
-        "screen__image--card"
-      ]
-    }
-  },
-  "flex-layout.row#info": {
-    "title": "Info title description and stamp",
-    "props":{
-      "blockClass": [
-        "info--card"
-      ]
-    },
-    "children": [
-      "flex-layout.col#description",
-      "flex-layout.col#stamp"
-    ]
-  },
-  "flex-layout.col#description": {
-    "title": "Title and description",
-    "props": {
-      "blockClass": [
-        "card__info--and--description"
-      ],
-      "width": "75%"
-    },
-    "children": [
-      "rich-text#title",
-      "rich-text#description"
-    ]
-  },
-  "rich-text#title": {
-    "title": "Title",
-    "props": {
-      "font": "Lexend",
-      "blockClass": [
-        "text--title"
-      ],
-      "text": "Heading"
-    }
-  },
-  "rich-text#description": {
-    "title": "Description",
-    "props": {
-      "font": "Lexend",
-      "blockClass": [
-        "text--description"
-      ],
-      "text": "Builder platform is made by, buildership platform is made by"
-    }
-  },
-  "flex-layout.col#stamp": {
-    "title": "Stamp",
-    "children": [
-      "image#stamp"
-    ],
-    "props": {
-      "blockClass": [
-        "space--stamp"
-      ]
-    }
-  },
-  "image#stamp": {
-    "title": "Stamp image card",
-    "props": {
-      "src": "/arquivos/stamp.png",
-      "blockClass": [
-        "stamp__image--card"
-      ]
-    }
-  },
-  "flex-layout.row#button": {
-    "title": "Button",
-    "props": {
-      "font": "Lexend",
-      "blockClass": [
-        "button--card"
-      ]
-    },
-    "children": [
-      "rich-text#button--card"
-    ]
-  },
-  "rich-text#button--card": {
-    "title": "Text button",
-    "props": {
-      "blockClass": [
-        "text--button"
-      ],
-      "text": "Ver precio"
-    }
-  }, */
-  
-  /*     Segundo slider */
-  /* "flex-layout.row#slider--desktop": {
-   "title": "Cards carrusel row",
-   "children": [
-     "slider-layout#screen-images--desktop"
-   ],
-   "props": {
-     "blockClass": [
-       "carrusel__total--desktop"
-     ]
-   }
- },
- "slider-layout#screen-images--desktop": {
-   "props": {
-     "itemsPerPage": {
-       "desktop": 5,
-       "tablet": 3,
-       "phone": 1.5
-     },
-     "infinite": true,
-     "showNavigationArrows": "always",
-     "showPaginationDots": "always",
-     "blockClass": [
-       "carrusel__slider--desktop"
-     ]
-   },
-   
-   "children": [
-   "flex-layout.col#slider--desktop",
-   "flex-layout.col#slider--desktop",
-   "flex-layout.col#slider--desktop",
-   "flex-layout.col#slider--desktop",
-   "flex-layout.col#slider--desktop",
-   "flex-layout.col#slider--desktop"
- ]
-},    
- "flex-layout.col#slider--desktop": {
-   "title": "infocard desktop",
-   "children": [
-     "flex-layout.row#percent--and--like",
-     "flex-layout.row#desktop--slide",
-     "flex-layout.row#description",
-     "rich-text#prices--one",
-     "rich-text#prices--two",
-     "rich-text#delivery",
-     "flex-layout.row#buy"
-   ],
-   "props": {
-     "blockClass": [
-       "infocard--desktop"
-     ]
-   }
-   },
-   "flex-layout.row#percent--and--like": {
-     "title": "percent and like",
-     "children": [
-       "flex-layout.col#percent",
-       "flex-layout.col#empty",
-       "flex-layout.col#like"
-     ],
-     "props": {
-       "blockClass": [
-         "percent--like"
-       ]
-     }
-   },
-   "flex-layout.col#percent": {
-     "title": "percent space",
-     "props": {
-       "border": "all",
-       "borderWidth": 1,
-       "blockClass": [
-         "percent"
-       ]
-     }
-   },
-
-   "flex-layout.col#empty": {
-     "title": "Empty"
-   },
-   
-   "flex-layout.col#like": {
-     "title": "like",
-     "props": {
-       "width": "25%",
-       "border": "all",
-       "borderWidth": 1,
-       "blockClass": [
-         "like"
-       ]
-     }
-   },
-   "flex-layout.row#desktop--slide": {
-     "title": "Space image desktop",
-     "children": [
-       "image#desktop--slider"
-     ]
-   },
-   "image#desktop--slider": {
-     "title": "Image desktop",
-     "props": {
-       "src": "/arquivos/desktop.png",
-       "blockClass": [
-         "image-desktop--slider"
-       ]
-     }
-   },
-   "flex-layout.row#description": {
-     "title": "Space desktop description",
-     "props": {
-       "blockClass": [
-         "space-desktop-description"
-       ]
-     },
-     "children": [
-       "rich-text#desktop-description"
-     ]
-   },
-   "rich-text#desktop-description": {
-     "title": "Desktop description",
-     "props": {
-       "text": "Descripción del producto en hasta tres líneas de texto explicativo",
-       "blockClass": [
-         "desktop-description"
-       ]
-     }
-   },
-   "rich-text#prices--one": {
-     "title": "Previus price",
-     "props": {
-       "text": "836.900",
-       "blockClass": [
-         "price-one"
-       ]
-     }
-   },
-   "rich-text#prices--two": {
-     "title": "Previus price",
-     "props": {
-       "text": "636.900",
-       "blockClass": [
-         "price-two"
-       ]
-     }
-   },
-   "rich-text#delivery": {
-     "title": "Free delivery",
-     "props": {
-       "text": "Envío gratis",
-       "blockClass": [
-         "free-delivery"
-       ]
-     }
-   },
-   "flex-layout.row#buy": {
-     "title": "buy",
-     "props": {
-       "border": "all",
-       "borderWidth": 1,
-       "blockClass": [
-         "buy"
-       ]
-     }
-   }
-
-   
-    */
+}
+    

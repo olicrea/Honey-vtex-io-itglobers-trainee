@@ -1,8 +1,9 @@
-/* .vtex-slider-layout-0-x-paginationDot-isActive~.vtex-slider-layout-0-x-paginationDot::after {
+/*Lines not active after dot properties*/
+:global(.vtex-slider-layout-0-x-paginationDot--isActive~.vtex-slider-layout-0-x-paginationDot:after) {
   width: 44px;
   height: 2px;
   content: "";
   font-size: 0;
-  background-color: rgba(29, 39, 52, 0.4);
+  background-color: rgba(0,0,0,.4);
   position: absolute;
-} */
+}

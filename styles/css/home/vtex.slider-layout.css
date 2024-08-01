@@ -12,7 +12,7 @@
   height: 2px;
   content: "";
   font-size: 0;
-  background-color: rgba(29, 39, 52, 0.4);
+  background-color: rgba(29, 39, 52);
   position: absolute;
 }
 .paginationDot {
@@ -27,15 +27,17 @@
   margin: 0 2px;
 }
 
-.paginationDot--isActive::after {
-  width: 44px;
-  height: 2px;
-  content: "";
-  font-size: 0;
-  background-color: rgba(29, 39, 52, 0.4);
-  position: absolute;
-}
-
 .paginationDotsContainer{
   margin: -60px;
 }
+
+/* .paginationDotsContainer--custom_slider1 {
+  bottom: -44px;
+}
+.paginationDotsContainer--slider--products {
+  bottom: -34px;
+} */
+
+
+
+
