@@ -1,0 +1,5 @@
+.flexRowContent--global__main--summary {
+  display: flex;
+  align-items: center;
+  /* background-color: blue; */
+}

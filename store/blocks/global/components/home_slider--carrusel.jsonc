@@ -90,7 +90,12 @@
     "children": [
       "product-price-savings",
       "add-to-list-btn"
-    ]
+    ],
+    "props": {
+      "blockClass": [
+        "global__main--summary"
+      ]
+    }
   },
   "product-price-savings": {
     "props": {
@@ -120,6 +125,7 @@
     "title": "New price",
     "props": {
         "text": "Envío gratis",
+        "textColor": "#FA2080",
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
         "blockClass": [

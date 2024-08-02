@@ -4,7 +4,26 @@
   max-height: 336.46px;
   max-width: 324px;
 }
-
+.sellingPrice {
+  text-align: left;
+  color: black;
+  font-size: 24px;
+}
+.listPrice {
+  text-align: left;
+}
+.listPriceLabel {
+  display: none;
+}
+.sellingPriceLabel {
+  display: none;
+}
+.currencyCode--price-shelf {
+  display: none;
+}
+.currencyLiteral--price-shelf::before {
+  content: "$";
+}
 /* infocard como infocard */
 /* .infoCardContainer {
   display: flex;

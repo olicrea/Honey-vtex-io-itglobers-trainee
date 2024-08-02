@@ -1,8 +1,18 @@
-.wishlistIcon--wish-list-icon {
+/* .wishlistIcon--wish-list-icon {
   background: url("/arquivos/add-to--favorites.svg");
   background-repeat: no-repeat;
   background-position: center;
-}
-.wishlistIconContainer--wish-list-icon :global(.vtex-button) {
+} */
+/* .wishlistIconContainer--wish-list-icon :global(.vtex-button) {
   border: 1px solid #1D2734;
 }
+
+.outline {
+  color: #1D2734;
+  background-color: #1D2734;
+}
+
+:global(.vtex-button__label) {
+  border-color: #1D2734;
+  background-color: #1D2734;
+} */
